@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="css/anythingzoomer.css">
+<style type="text/css">
+  .small p { font-size: 9px; width: 300px; }
+  .large p { font-size: 18px; width: 600px; }
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.anythingzoomer.js"></script>
+<script>
+  $(function(){
+    $(".zoomable").anythingZoomer({
+      clone: true,
+    });
+  });
+</script>
+<div class="zoomable">
+  <div class="small">
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibu
+    </p>
+  </div>
+</div>
